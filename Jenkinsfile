@@ -1,6 +1,12 @@
 pipeline{
-
-    script{
-        echo "Hello"
+    agent any
+    
+    stages {
+        stage("Hello world"){
+        
+            echo "Hello"
+            
+        }
     }
+    
 }
